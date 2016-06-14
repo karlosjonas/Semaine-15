@@ -201,9 +201,9 @@ puts "\nGAME OVER !!!\n"
 # A faire:
 # - Afficher le résultat de la partie
 
-if joueur.en_vie
+if joueur.en_vie && monde.ennemis.size == 0
   puts "Bravo Jean-Michel Paladin vous avez gagné la parti!"
-
+  
 else
   puts "Désolé Jean-Michel Paladin vous avez perdu la parti!"
 end
